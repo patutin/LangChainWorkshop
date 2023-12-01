@@ -20,10 +20,10 @@
 
 ### Task 3: Create final task
 - ~~Draw an owl~~
-- Call Azure OpenAI to select dish of the day. 
-- Call Google Custom Search API to find recipe of dish of the day.
-- Call Wikipedia to find description of dish of the day.
-- Call HaggingFace to generate image of dish of the day.
+- Call Azure OpenAI to select popular sport of country. 
+- Call Google Custom Search API to find the last 5 winners of specified sport.
+- Call Wikipedia to find description of sport.
+- Call Google Custom Search API to find image of sport.
 - Call Azure OpenAI to code snipet for site widget.
 
 ## Get Fun

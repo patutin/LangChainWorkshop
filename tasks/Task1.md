@@ -8,21 +8,18 @@ Before starting this session, ensure you have received the Azure OpenAI API keys
 ### Step 1: Project Setup
 - **1.1 Create a new project directory**:
   - Use the command line or terminal to create a new folder.
-- **1.2 Initialize a Python project**:
-  # Replace js code with python code for init
-  - Run `npm init` to create a `package.json` file.
 
-### Step 2: Install NPM Packages
+### Step 2: Install Python dependencies
 - **2.1 Install LangChain and other dependencies**:
-  - Run `npm install langchain`.
-  - Install `axios` for HTTP requests.
+  - Copy `requrements.txt` to your directory.
+  - Run `pip install -r requirements.txt`.
 
 ### Step 3: Azure OpenAI API Integration
 - **3.1 Configure .env file**:
   - Create a `.env` file in your project root.
   - Add your Azure OpenAI API keys and endpoint to the `.env` file for secure access.
 - **3.2 Create your first call to Azure OpenAI LLM model**:
-  -  Develop JavaScript code to make the initial request to the Azure OpenAI LLM model using LangChain
+  -  Develop Python code to make the initial request to the Azure OpenAI LLM model using LangChain
   -  Replace LLM Model With Chat Model, and check that it works as expected.
   -  With the same PromptTemplate, change the Temperature to see how the output changes.
 
@@ -40,6 +37,7 @@ Before starting this session, ensure you have received the Azure OpenAI API keys
   - Select the appropriate permissions for your token.
   - Click the "Generate token" button.
   - Copy the generated API token and save it securely.
+  - Add your Hugging Face API token to the `.env` file.
 
 ### Step 5: HuggingFace Model Call
 - **5.1 Integrate HuggingFace model**:
