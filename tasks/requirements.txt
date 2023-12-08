@@ -1,0 +1,10 @@
+langchain==0.0.326
+jupyter==1.0.0
+openai==0.28.1
+python-dotenv==1.0.0
+huggingface_hub==0.18.0
+wikipedia==1.4.0
+google-api-python-client==2.109.0
+requests==2.31.0
+beautifulsoup4==4.12.2
+
