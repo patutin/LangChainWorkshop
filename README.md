@@ -1,19 +1,35 @@
-# LangChainWorkshop
-Learning Week LangChain Workshop
+# LangChain Workshop Overview
 
-## Instruction
-- Install python dependencies: `pip install -r requrements.txt`
-- Create `.env` file in the current directory
-- Set OpenAI key
-	- generate a key: https://platform.openai.com/account/api-keys
-    - add `OPENAI_API_KEY` to the `.env` file with the key as a value: `OPENAI_API_KEY=your-api-key`
-- Set [Hugging Face](https://huggingface.co/) key
-	- generate a key: https://huggingface.co/settings/tokens
-	- add `HUGGINGFACEHUB_API_TOKEN` to the `.env` file with the key as a value: `HUGGINGFACEHUB_API_TOKEN=your-api-key`
-- Get Access to Google Custom Search API
-	- Create a new project at https://console.developers.google.com/apis/dashboard
-	- Create a new API key at https://console.developers.google.com/apis/credentials
-	- Enable the Custom Search API at https://console.developers.google.com/apis/library/customsearch.googleapis.com
-	- Create a new Custom Search Engine at https://cse.google.com/cse/all
-	- Add your API Key as `GCS_DEVELOPER_KEY` and your Custom Search Engine ID as `GCS_CX` to your .env file
+## Introduction to LangChain
+Participants will gain basic experience with LangChain, understanding its I/O model, and exploring its capabilities.
 
+### Key Features
+- **Hands-on Experience**: Engage with LangChain through practical exercises.
+- **Understanding the I/O Model**: Learn the intricacies of LangChain's input/output model.
+- **Chain Creation**: Get guided experience in creating and managing LangChain sequences.
+- **Tools and Agents**: Explore the various tools and agents available in LangChain.
+
+## Workshop Schedule
+
+### Session 1: Introduction to LangChain
+- Overview of LangChain technology
+- Interactive session on the I/O model
+- Experimentation with calling different models using LangChain
+
+### Session 2: Hands-On with Chains
+- Overview of the chaining approaches in LangChain
+- Practical exercises on creating chains
+- Experimentation with chains on different models
+
+### Session 3: Advanced Techniques: Using Tools and Agents
+- Deep dive into advanced LangChain features
+- Experimentation with different LangChain tools
+- Creating agents to automate LangChain processes
+
+## Target Audience
+- Beginners to intermediate users with experience in Python interested in LangChain.
+- Developers, researchers, and hobbyists exploring new technology.
+
+---
+
+Join us for an engaging and informative workshop to expand your knowledge and skills in LangChain technology!
